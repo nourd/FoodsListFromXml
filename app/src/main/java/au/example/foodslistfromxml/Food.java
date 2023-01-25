@@ -2,8 +2,8 @@ package au.example.foodslistfromxml;
 
 public class Food {
 
-    private String name;
-    private String calories;
+    private final String name;
+    private final String calories;
 
     public Food(String name, String calories) {
         this.name = name;

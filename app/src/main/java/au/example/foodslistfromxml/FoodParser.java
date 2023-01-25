@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class FoodParser {
-    private XmlPullParser xpp;
+    private final XmlPullParser xpp;
 
     public FoodParser(XmlPullParser xpp) throws XmlPullParserException, IOException {
         this.xpp = xpp;
